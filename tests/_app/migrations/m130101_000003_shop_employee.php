@@ -1,12 +1,12 @@
 <?php
 
-class m130101_000003_shop_employee extends \tecnocen\migrate\CreateTableMigration
+class m130101_000003_shop_employee extends \roaresearch\yii2\migrate\CreateTableMigration
 {
 
     /**
      * @inhertidoc
      */
-    public function getTableName()
+    public function getTableName(): string
     {
         return 'shop_employee';
     }
@@ -14,7 +14,7 @@ class m130101_000003_shop_employee extends \tecnocen\migrate\CreateTableMigratio
     /**
      * @inhertidoc
      */
-    public function columns()
+    public function columns(): array
     {
         return [
             'id' => $this->primaryKey(),
@@ -27,7 +27,7 @@ class m130101_000003_shop_employee extends \tecnocen\migrate\CreateTableMigratio
     /**
      * @inhertidoc
      */
-    public function foreignKeys()
+    public function foreignKeys(): array
     {
         return ['shop_id' => 'shop'];
     }

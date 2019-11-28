@@ -7,9 +7,9 @@ use yii\data\ActiveDataProvider;
 /**
  * Contract to filter and sort collections of `Shop` records.
  *
- * @author Carlos (neverabe) Llamosas <carlos@tecnocen.com>
+ * @author Carlos (neverabe) Llamosas <carlos@invernaderolabs.com>
  */
-class ShopSearch extends Shop implements \tecnocen\roa\ResourceSearch
+class ShopSearch extends Shop implements \roaresearch\yii2\roa\ResourceSearch
 {
     /**
      * @inhertidoc
