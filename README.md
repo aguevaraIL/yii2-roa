@@ -95,7 +95,7 @@ TO DO
 
 ## Code of Conduct
 
-Please read [CODE_OF_CONDUCT.md](https://github.com/ROAResearch/yii2-formgenerator/blob/master/CODE_OF_CONDUCT.md) for details on our code of conduct.
+Please read [CODE_OF_CONDUCT.md](https://github.com/ROAResearch/yii2-roa/blob/master/CODE_OF_CONDUCT.md) for details on our code of conduct.
 
 ## Contributing
 
