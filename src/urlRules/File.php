@@ -34,7 +34,7 @@ class File extends Resource
      */
     public function init()
     {
-        $this->tokens['{ext}'] = '<ext:(' . implode($this->ext, '|') . ')>';
+        $this->tokens['{ext}'] = '<ext:(' . implode('|', $this->ext) . ')>';
         parent::init();
     }
 }
