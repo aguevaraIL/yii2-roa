@@ -1,14 +1,19 @@
 Yii2 ROA Library
 ================
 
-2.0.0
------
+2.0.1 October 28, 2020
+----------------------
+
+- [Bug] fix `implode()` in file `src/urlRules/File.php`
+
+2.0.0 November 29, 2019
+----------------------
 
 - [Brk] PSR12 support
 - [Brk] Namespace change.
 
 0.5.0 July 13, 2019
--------------------------
+----------------------
 
 - [BRK] Methods now use the typecast supported in php 7.1
 - [BRK] Added `tecnocen\roa\hal\Contract::getSelfLink()`
