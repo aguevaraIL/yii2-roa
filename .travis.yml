@@ -1,7 +1,5 @@
 
 # faster builds on new travis setup not using sudo
-sudo: false
-
 language: php
 
 services:
@@ -30,11 +28,6 @@ before_script:
             
   # initialize database
   - mysql -e "create database yii2_roa_test"
-
-script:
-  - composer deploy-tests
-  - composer run-tests
-
 
 script:
   - composer deploy-tests
